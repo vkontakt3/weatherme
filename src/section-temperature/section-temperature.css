@@ -1,0 +1,56 @@
+.main-information {
+    background: linear-gradient(to right ,#862f9c , #333333);
+    border-radius: 70px;
+    width: 1200px;
+    margin: 60px auto auto auto;
+    padding: 30px;
+}
+
+.towm {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+}
+
+.towm img {
+    margin-left: 10px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.temperature {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.temperature p {
+    font-weight: 300;
+    font-size: 120px;
+    color: #f2f1f1;
+    margin: 0px 0px 0px 25px;
+}
+.weather-icon {
+    width: auto; /* Устанавливаем ширину */
+    height: 200px; /* Высота автоматически подстраивается */
+    transition: all 0.5s ease;
+}
+
+.date {
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    /* margin-left: 30px; */
+}
+
+.weather-conditions {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;    
+}

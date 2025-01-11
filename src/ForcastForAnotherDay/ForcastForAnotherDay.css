@@ -1,0 +1,19 @@
+.forcast {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    justify-content: space-between;
+}
+
+.forcast-item {
+    background: linear-gradient(to bottom, #B32DD4 , #373333);
+    text-align: center;
+    border-radius: 30px;
+    height: 200px;
+    color: #fff;
+    width: 150px;
+}
+
+.icon-forcast {
+    height: 80px;
+    width: auto;
+}

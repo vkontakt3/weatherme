@@ -1,0 +1,13 @@
+.error {
+    text-align: center;
+    margin-top: 220px;
+}
+
+.error svg {
+    height: 100px;
+}
+
+.error p {
+    color: #fff;
+    font-size: 20px;
+}

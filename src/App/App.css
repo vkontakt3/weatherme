@@ -1,0 +1,44 @@
+body {
+    background-color: #252323;
+    font-family: "Montserrat", serif;
+    width: 1550px;
+    margin: auto;
+}
+
+.input-main {
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    font-size: 25px;
+    width: 680px;
+    height: 66px;
+    border: none;
+    background-color:  #d9d9d9;
+}
+.input-main:focus {
+    border: none; /* Убирает бордер при фокусе */
+    outline: none; /* Убирает обводку по умолчанию (для браузеров, которые её добавляют) */
+}
+
+.input-main::placeholder {
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    left: 60px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-icon {
+    background-color:  #d9d9d9;
+    height: 68px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
